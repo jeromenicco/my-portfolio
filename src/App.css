@@ -1,3 +1,6 @@
+.app {
+  overscroll-behavior: none;
+}
 
 .react-parallax {
   height: fit-content;
