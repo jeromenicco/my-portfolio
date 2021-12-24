@@ -9,13 +9,14 @@ function Navbar() {
 
     let lastScrollY = window.scrollY
 
+    // console.log(lastScrollY)
+
     window.addEventListener('scroll', () => {
         if (lastScrollY < window.scrollY) {
-                setScrollDown(true)
-        } else {
-
-            // nav.classList.remove('.navbar-hidden')
-                setScrollDown(false)
+            setScrollDown(true)
+        }
+        else {
+            setScrollDown(false)
         }
         lastScrollY = window.scrollY
     })
