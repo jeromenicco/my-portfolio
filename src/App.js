@@ -4,7 +4,7 @@ import About from './components/About'
 import Work from './components/Work';
 import Contact from './components/Contact';
 
-import './app.css';
+import './App.css';
 
 function App() {
   
