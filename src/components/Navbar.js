@@ -29,13 +29,37 @@ function Navbar() {
                 </a>
 
                 <ul className='nav-items-container'>
-                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={800} className='nav-item'>
+                    <Link
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={800}
+                        className='nav-item'
+                    >
                         About
                     </Link>
-                    <Link activeClass="active" to="work" spy={true} smooth={true} offset={50} duration={800} className='nav-item'>
+                    <Link
+                        activeClass="active"
+                        to="work"
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={800}
+                        className='nav-item'
+                    >
                         Work
                     </Link>
-                    <Link activeClass="active" to="contact" spy={true} smooth={true} offset={200} duration={1300} className='nav-item'>
+                    <Link 
+                        activeClass="active"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        // offset={200}
+                        duration={1300}
+                        className='nav-item'
+                    >
                         Contact
                     </Link>
                 </ul>
