@@ -30,10 +30,16 @@ function WorkList() {
             {
             items.map((item, index) => {
               return (
-                <div className='work-item-container' key={index}>
-                  <img src={item.image} alt={item.name} />
-                  <p>{item.name}</p>
-                </div>
+                <>
+                  <div className='work-item-container' key={index}>
+                    <img src={item.image} alt={item.name} />
+                    <p>{item.name}</p>
+                  </div>
+                  {
+                    index !== items.length -1 &&
+                    <div className='work-stroke' />
+                  }
+                </>
               )
             })
           }

@@ -13,17 +13,18 @@ function Work() {
                   renderLayer={(percentage) => (
                     <div style={{
                       position: "absolute",
-                      top: "10%",
+                      top: "5%",
+                      right: 0,
                       width: '100%',
                       marginTop: 100 * percentage,
                     }}>
-                      <p className='background-text'>
+                      <p className='work-background-text'>
                       Work
                       </p>
                     </div>
                   )}
                 >
-                  <div className='about-text-container'>
+                  <div className='work-text-container'>
                     <p className='about-text'>I build my websites using React.js and other librairies.</p>
                   </div>
             </Parallax>

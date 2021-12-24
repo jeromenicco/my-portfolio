@@ -29,3 +29,9 @@
     font-weight: bold;
     border-top: 2px solid lightgrey;
 }
+
+.work-stroke {
+    height: 50px;
+    width: 50%;
+    border-right: 1px solid black;
+}

@@ -14,7 +14,7 @@ function About() {
                   renderLayer={(percentage) => (
                     <div style={{
                       position: "absolute",
-                      top: "10%",
+                      top: "5%",
                       width: '100%',
                       marginTop: 100 * percentage,
                     }}>
@@ -25,7 +25,10 @@ function About() {
                   )}
                 >
                   <div className='about-text-container'>
-                    <p className='about-text'>I'm Jerome, front end web developer based in Paris.</p>
+                    <p className='about-text'>
+                      I'm Jerome, front end web developer based in Paris.<br/>
+                      I love designing and building web interfaces.
+                    </p>
                   </div>
                 </Parallax>
         </div>
