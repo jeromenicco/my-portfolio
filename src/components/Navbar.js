@@ -6,13 +6,18 @@ import './Navbar.css'
 
 function Navbar() {
     const [scrollDown, setScrollDown] = useState(false)
-    // console.log(scrollDown)
+    console.log(scrollDown)
+
+    // console.log(window.scrollY)
 
     let lastScrollY = window.scrollY
     // console.log(lastScrollY)
     
     window.addEventListener('scroll', () => {
         if (lastScrollY < window.scrollY) {
+            setScrollDown(true)
+        }
+        if (window.scrollY > 60) {
             setScrollDown(true)
         }
         else {
