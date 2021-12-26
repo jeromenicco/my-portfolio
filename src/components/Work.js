@@ -8,6 +8,7 @@ import './Work.css'
 function Work() {
     return (
         <div className='work-container' id='work'>
+          <div className='work-content'>
             <Parallax
                   strength={100}
                   renderLayer={(percentage) => (
@@ -29,6 +30,7 @@ function Work() {
                   </div>
             </Parallax>
             <WorkList />
+          </div>
         </div>
     )
 }

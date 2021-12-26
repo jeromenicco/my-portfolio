@@ -37,7 +37,7 @@ function Navbar() {
                         to="about"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={80}
                         duration={800}
                         className='nav-item'
                     >
@@ -48,7 +48,7 @@ function Navbar() {
                         to="work"
                         spy={true}
                         smooth={true}
-                        offset={50}
+                        offset={100}
                         duration={800}
                         className='nav-item'
                     >
