@@ -14,10 +14,7 @@ function Navbar() {
     // console.log(lastScrollY)
     
     window.addEventListener('scroll', () => {
-        if (lastScrollY < window.scrollY) {
-            setScrollDown(true)
-        }
-        if (window.scrollY > 60) {
+        if (lastScrollY < window.scrollY || window.scrollY > 60) {
             setScrollDown(true)
         }
         else {
