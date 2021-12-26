@@ -1,4 +1,41 @@
 .contact-container {
     height: 700px;
     width: 100%;
+    position: relative;
+}
+
+.contact-content {
+    max-width: 50em;
+	margin: 0 auto;
+}
+
+.contact-text-container {
+    margin: auto 30px;
+    padding-top: 170px;
+}
+
+.contact-text {
+    text-align: center;
+    font-size: 30px;
+}
+
+.scrolltop-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+.scrolltop-button {
+    border: none;
+    background: none;
+    font-size: 30px;
+    animation: scrollUp 0.5s ease infinite alternate;
+}
+
+@keyframes scrollUp {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }

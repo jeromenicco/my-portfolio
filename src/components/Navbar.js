@@ -1,18 +1,12 @@
 import React, {useState} from 'react'
-import { Link } from 'react-scroll'
-
 
 import './Navbar.css'
 
-function Navbar() {
+function Navbar({Link}) {
     const [scrollDown, setScrollDown] = useState(false)
-    console.log(scrollDown)
-
-    // console.log(window.scrollY)
 
     let lastScrollY = window.scrollY
-    // console.log(lastScrollY)
-    
+
     window.addEventListener('scroll', () => {
         if (lastScrollY < window.scrollY && window.scrollY > 60) {
             setScrollDown(true)
@@ -23,10 +17,8 @@ function Navbar() {
         lastScrollY = window.scrollY
     })
 
-
     return (
             <nav className={ !scrollDown ? 'navbar' : 'navbar-hidden'}>
-            {/* <nav className='navbar'> */}
                 <a href='/' className='logo'>
                     JN
                 </a>
@@ -37,7 +29,7 @@ function Navbar() {
                         to="about"
                         spy={true}
                         smooth={true}
-                        offset={80}
+                        // offset={80}
                         duration={800}
                         className='nav-item'
                     >

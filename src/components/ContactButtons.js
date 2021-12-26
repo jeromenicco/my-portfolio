@@ -6,11 +6,11 @@ function ContactButtons() {
     return (
         <div className='button-container'>
             <div className='button'>
-                contact@jeromenicco.com
+                <a href='mailto:contact@jeromenicco.com'>contact@jeromenicco.com</a>
             </div>
             <div className='stroke' />
             <div className='button'>
-                LinkedIn
+                <a href='https://www.linkedin.com/in/jerome-nicco/'>LinkedIn</a>
             </div>
         </div>
     )

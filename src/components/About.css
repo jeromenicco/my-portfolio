@@ -1,17 +1,17 @@
 .about-container {
     width: 100%;
-    height: 600px;
+    height: 900px;
     position: relative;
     /* background-image: linear-gradient(45deg, #6303B1, #ff0099); */
     /* transform: skewY(-11deg); */
     z-index: 0;
 }
 
-/* .content { 	
+.about-content { 	
 	max-width: 50em;
     margin: 0 auto; 
-    transform: skewY(11deg);
-} */
+    /* transform: skewY(11deg); */
+}
 
 .react-parallax {
     height: 100%;
@@ -28,11 +28,32 @@
 }
 
 .about-text-container {
-    text-align: right;
     margin: auto 30px;
     padding-top: 170px;
 }
 
 .about-text {
+    text-align: right;
     font-size: 30px;
+}
+
+.about-text-container2 {
+    margin: auto 30px;
+}
+
+.about-text2 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.about-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.about-stroke {
+    height: 30px;
+    border-right: 1px solid black;
 }

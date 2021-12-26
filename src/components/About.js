@@ -6,10 +6,10 @@ import './About.css'
 
 
 
-function About() {
+function About({Link}) {
     return (
         <div className='about-container' id='about'>
-          <div className='content'>
+          <div className='about-content'>
             <Parallax
               strength={100}
               renderLayer={(percentage) => (
@@ -30,6 +30,26 @@ function About() {
                   I'm Jerome, front end web developer based in Paris.<br/>
                   I love designing and building web interfaces.
                 </p>
+              </div>
+              <div className='about-button-container'>
+                <div className='about-stroke' />
+                <Link
+                  className='button'
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  // offset={200}
+                  duration={1300}
+                >
+                  Contact me
+                </Link>
+                <div className='about-stroke' />
+                <div className='about-text-container2'>
+                  <p className='about-text2'>
+                    Passionate and creatif.<br/>
+                    If you have a project in mind it would be a pleasure to collaborate.
+                  </p>
+                </div>
               </div>
             </Parallax>
           </div>
