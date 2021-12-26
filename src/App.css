@@ -1,4 +1,5 @@
-.app {
+body {
+  overscroll-behavior: none;
 }
 
 .react-parallax {
