@@ -17,7 +17,7 @@ function App() {
     return () => {
       beforeRemove()
     }
-  }, [afterRender, beforeRemove])
+  }, [afterRender, beforeRemove, htmlElement.scrollTop])
 
 
 
