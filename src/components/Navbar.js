@@ -9,8 +9,8 @@ function Navbar() {
     console.log(scrollDown)
 
     let lastScrollY = window.scrollY
-
-
+    console.log(lastScrollY)
+    
     window.addEventListener('scroll', () => {
         if (lastScrollY < window.scrollY) {
             setScrollDown(true)
