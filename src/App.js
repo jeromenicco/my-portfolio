@@ -9,15 +9,13 @@ import './App.css';
 function App() {
 
   const htmlElement = document.querySelector('body')
-
   
   useEffect(() => {
-    console.log(htmlElement.scrollTop)
     afterRender()
     return () => {
       beforeRemove()
     }
-  }, [afterRender, beforeRemove, htmlElement.scrollTop])
+  },)
 
 
 
