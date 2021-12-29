@@ -19,6 +19,7 @@
         justify-content: space-between;
         align-items: center;
         margin-left: 10px;
+        cursor: pointer;
     }
     .logo-circle-desktop {
         height: 40px;
@@ -54,6 +55,9 @@
         width: 40px;
         border-bottom: 1px solid black;
         border-right: none;
+    }
+    .work-item-container:hover {
+        
     }
 
     /* CONTACT ---------------------------------- */ 

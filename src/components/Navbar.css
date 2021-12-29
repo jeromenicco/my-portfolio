@@ -52,6 +52,7 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
+    margin-left: -1px;
 }
 .nav-items-container {
     display: flex;
