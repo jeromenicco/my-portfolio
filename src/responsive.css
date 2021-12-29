@@ -1,5 +1,4 @@
 @media screen and (min-width: 850px) {
-
     /* NAV ---------------------------------- */ 
     .nav-wrapper {
         width: 100vw;
@@ -35,6 +34,11 @@
         justify-content: space-between;
     }
 
+    /* ABOUT ---------------------------------- */ 
+
+    .about-container {
+        height: 600px;
+    }
 
     /* WORK ---------------------------------- */ 
     .worklist-container {
@@ -56,14 +60,9 @@
         border-bottom: 1px solid black;
         border-right: none;
     }
-    .work-item-container:hover {
-        
-    }
 
     /* CONTACT ---------------------------------- */ 
 
-    .contact-container {
-        /* margin-top: 200px; */
-    }
+  
 
   }
