@@ -37,8 +37,50 @@
     /* ABOUT ---------------------------------- */ 
 
     .about-container {
-        height: 600px;
+        height: 650px;
+        margin-top: -50px;
+        padding-top: 50px;
     }
+
+
+
+
+
+    /* I DO ---------------------------------- */ 
+
+    .ido-content {
+        max-width: 60em;
+    }
+
+    #ido-parallax-text {
+        margin-left: 80px;
+    }
+
+    .ido-container {
+
+    }
+
+    .ido-text-wrapper {
+        display: flex;
+        align-items: center;
+        max-width: 60em;
+        height: 500px;
+        width: 100%;
+        padding-top: 70px;
+    }
+
+    .ido-text-container {
+        width: 50%;
+        margin: 0 30px;
+        padding-top: 0;
+    }
+    
+    .ido-text-container2 {
+        width: 50%;
+        margin: auto 30px;
+    }
+
+    
 
     /* WORK ---------------------------------- */ 
     .worklist-container {

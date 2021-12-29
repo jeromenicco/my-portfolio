@@ -14,7 +14,7 @@ function Work() {
                   renderLayer={(percentage) => (
                     <div style={{
                       position: "absolute",
-                      top: "5%",
+                      top: "15%",
                       right: 0,
                       width: '100%',
                       marginTop: 100 * percentage,
