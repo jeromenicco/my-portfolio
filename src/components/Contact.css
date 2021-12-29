@@ -1,8 +1,8 @@
 .contact-container {
-    height: 700px;
+    height: 600px;
     width: 100%;
     position: relative;
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 
 .contact-content {

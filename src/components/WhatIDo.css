@@ -10,10 +10,15 @@
 	margin: 0 auto;
 }
 
+.ido-title-text {
+    font-size: 35px;
+}
+
 .ido-text-wrapper {
     /* display: flex; */
     /* width: 100%;
     justify-content: space-between; */
+    line-height: 1.2;
 }
 
 .ido-text-container {

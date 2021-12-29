@@ -27,13 +27,24 @@
     z-index: -1;
 }
 
+#hello {
+    /* -webkit-text-stroke: 1px #FCEAA7; */
+    color: white;
+}
+
+.bold-span {
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
 .about-text-container {
     margin: auto 30px;
     padding-top: 170px;
 }
 
 .about-text {
-    text-align: right;
+    text-align: left;
     font-size: 30px;
 }
 

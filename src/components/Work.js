@@ -26,7 +26,7 @@ function Work() {
                   )}
                 >
                   <div className='work-text-container'>
-                    <p className='work-text'>I build my websites using React.js and other librairies.</p>
+                    <p className='work-text'>I build my websites using <span className='bold-span'>React.js</span> and other librairies.</p>
                   </div>
             </Parallax>
             <WorkList />

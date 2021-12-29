@@ -33,7 +33,7 @@ function About({ Link }) {
               width: '100%',
               marginTop: 100 * percentage,
             }}>
-              <p className='background-text'>
+              <p className='background-text' id='hello'>
                 Hello
               </p>
             </div>
@@ -41,7 +41,7 @@ function About({ Link }) {
         >
           <div className='about-text-container'>
             <p className='about-text'>
-              I'm Jerome, front end web developer based in Paris.<br />
+              <span className='bold-span'>I'm Jerome</span>, front end web developer based in Paris.<br />
               I love designing and building web interfaces.
             </p>
           </div>

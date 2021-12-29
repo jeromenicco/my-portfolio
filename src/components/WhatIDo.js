@@ -29,7 +29,7 @@ function WhatIDo() {
 
                     <div className='ido-text-wrapper'>
                         <div className='ido-text-container'>
-                            <h3>Front End Developer.</h3>
+                            <h3 className='ido-title-text'>Front End Developer.</h3>
                             <p className='ido-text'>
                                 Specialized in React.js,<br/>
                                 I like to code things from scratch and bringing ideas to life in the browser.<br/>
@@ -37,7 +37,7 @@ function WhatIDo() {
                             </p>
                         </div>
                         <div className='ido-text-container2'>
-                            <h3>Web Designer.</h3>
+                            <h3 className='ido-title-text'>Web Designer.</h3>
                             <p className='ido-text2'>
                                 I value simple content structure, clean design patterns, and thoughtful interactions.<br/>
                                 Responsive, my layouts will work on any device, big or small.<br/>
