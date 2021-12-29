@@ -36,8 +36,11 @@ function WorkList() {
                     <p>{item.name}</p>
                   </div>
                   {
-                    index !== items.length -1 &&
-                    <div className='work-stroke' />
+                    index !== items.length -1 && (
+                      <div className='work-stroke-container'>
+                        <div className='work-stroke' />
+                      </div>
+                    )
                   }
                 </>
               )

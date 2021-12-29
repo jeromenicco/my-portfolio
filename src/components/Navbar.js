@@ -9,7 +9,7 @@ function Navbar({Link}) {
 
     window.addEventListener('scroll', () => {
         if (lastScrollY < window.scrollY && window.scrollY > 60) {
-            setScrollDown(true)
+            window.innerWidth < 850 && setScrollDown(true)
         }
         else {
             setScrollDown(false)
@@ -17,15 +17,29 @@ function Navbar({Link}) {
         lastScrollY = window.scrollY
     })
 
-    return (
-            <nav className={ !scrollDown ? 'navbar' : 'navbar-hidden'}>
-                <a href='/' className='logo'>
-                    JN
-                </a>
 
+    return (
+        <div className='nav-wrapper'>
+            <nav className={ !scrollDown ? 'navbar' : 'navbar-hidden'}>
+                {
+                    window.innerWidth < 850 ?
+                    <div className='logo-circle-mobile'>
+                        <a href='/' className='logo'>
+                            JN
+                        </a>
+                    </div>
+                    :
+                    <div className='logo-container-desktop'>
+                        <div className='logo-circle-desktop' />
+                        <a href='/' className='logo'>
+                            Jerome Nicco
+                        </a>
+                    </div>
+                    
+                }
                 <ul className='nav-items-container'>
                     <Link
-                        activeClass="active"
+                        activeClass="active-nav-link"
                         to="about"
                         spy={true}
                         smooth={true}
@@ -36,30 +50,30 @@ function Navbar({Link}) {
                         About
                     </Link>
                     <Link
-                        activeClass="active"
+                        activeClass="active-nav-link"
                         to="work"
                         spy={true}
                         smooth={true}
-                        offset={100}
+                        // offset={100}
                         duration={800}
                         className='nav-item'
                     >
                         Work
                     </Link>
                     <Link 
-                        activeClass="active"
+                        activeClass="active-nav-link"
                         to="contact"
                         spy={true}
                         smooth={true}
                         // offset={200}
-                        duration={1300}
+                        duration={1500}
                         className='nav-item'
                     >
                         Contact
                     </Link>
                 </ul>
-
             </nav>
+        </div>
     )
 }
 

@@ -30,18 +30,18 @@ function Contact({Link}) {
             </Parallax>
             <ContactButtons />
 
+
+          </div>
             <div className='scrolltop-container'>
               <Link
                to="about"
                spy={true}
                smooth={true}
-               duration={800}>
+               duration={1500}>
                 <button className='scrolltop-button'>⇪</button>
               </Link>
               <p>Scroll Up</p>
             </div>
-
-          </div>
         </div>
     )
 }

@@ -1,0 +1,65 @@
+@media screen and (min-width: 850px) {
+
+    /* NAV ---------------------------------- */ 
+    .nav-wrapper {
+        width: 100vw;
+        display: flex;
+        justify-content: center;;
+    }
+
+    .navbar {
+        /* width: 1000px; */
+        max-width: 50em;
+        opacity: 0.9;
+    }
+
+    .logo-container-desktop {
+        width: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .logo-circle-desktop {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-image: linear-gradient(45deg, #c3fdf2, #d2c9ff);
+    }
+
+
+    .nav-items-container {
+        padding-right: 40px;
+        width: 250px;
+        justify-content: space-between;
+    }
+
+
+    /* WORK ---------------------------------- */ 
+    .worklist-container {
+        margin: 0;
+        flex-direction: row;
+    }
+
+    .work-item-container {
+        height: 300px;
+        width: 240px;
+    }
+
+    .work-stroke-container {
+        display: flex;
+        align-items: center;
+    }
+    .work-stroke {
+        width: 40px;
+        border-bottom: 1px solid black;
+        border-right: none;
+    }
+
+    /* CONTACT ---------------------------------- */ 
+
+    .contact-container {
+        /* margin-top: 200px; */
+    }
+
+  }

@@ -39,14 +39,14 @@ function About({Link}) {
                   spy={true}
                   smooth={true}
                   // offset={200}
-                  duration={1300}
+                  duration={2000}
                 >
                   Contact me
                 </Link>
                 <div className='about-stroke' />
                 <div className='about-text-container2'>
                   <p className='about-text2'>
-                    Passionate and creatif.<br/>
+                    Passionate and creative about what I do.<br/>
                     If you have a project in mind it would be a pleasure to collaborate.
                   </p>
                 </div>

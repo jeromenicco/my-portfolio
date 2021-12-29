@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import { Link } from 'react-scroll'
 
 import './App.css';
+import './responsive.css'
 
 function App() {
   
