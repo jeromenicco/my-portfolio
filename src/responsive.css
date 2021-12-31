@@ -86,11 +86,19 @@
     .worklist-container {
         margin: 0;
         flex-direction: row;
+        overflow: scroll;
+        padding: 20px 100px;
+        /* padding: 20px; */
     }
+
+    
 
     .work-item-container {
         height: 300px;
-        width: 240px;
+        min-width: 340px;
+    }
+    #work-parallax-text {
+        margin-left: 80px;
     }
 
     .work-stroke-container {
@@ -98,7 +106,7 @@
         align-items: center;
     }
     .work-stroke {
-        width: 40px;
+        width: 60px;
         border-bottom: 1px solid black;
         border-right: none;
     }

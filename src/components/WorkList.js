@@ -3,6 +3,8 @@ import React from 'react'
 import FT_DESKTOP from '../assets/FT_DESKTOP.png'
 import AVS_DESKTOP from '../assets/AVS_DESKTOP.png'
 import VICE_DESKTOP from '../assets/VICE_DESKTOP.png'
+import ANTOINE_DESKTOP from '../assets/antoine-project.png'
+import ALTIMETER_DESKTOP from '../assets/altimeter-project.png'
 
 import './WorkList.css'
 
@@ -18,8 +20,18 @@ const items = [
       resume: 'Conception, design and front-end',
     },
     {
-      name: 'Area Vending Services',
+      name: 'AVS',
       image: AVS_DESKTOP,
+      resume: 'Design and front-end',
+    },
+    {
+      name: 'Mr Antoine',
+      image: ANTOINE_DESKTOP,
+      resume: 'Design and front-end',
+    },
+    {
+      name: 'Altimeter',
+      image: ALTIMETER_DESKTOP,
       resume: 'Design and front-end',
     },
   ]

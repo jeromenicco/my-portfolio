@@ -19,7 +19,7 @@ function Work() {
                       width: '100%',
                       marginTop: 100 * percentage,
                     }}>
-                      <p className='work-background-text'>
+                      <p className='work-background-text' id='work-parallax-text'>
                       Work
                       </p>
                     </div>
