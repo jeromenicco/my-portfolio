@@ -9,7 +9,7 @@
     .navbar {
         /* width: 1000px; */
         max-width: 50em;
-        opacity: 0.9;
+        opacity: 0.95;
     }
 
     .logo-container-desktop {
@@ -83,6 +83,12 @@
     
 
     /* WORK ---------------------------------- */ 
+
+    .work-content {
+        max-width: 50em;
+    }
+    
+
     .worklist-container {
         margin: 0;
         flex-direction: row;
@@ -94,11 +100,13 @@
     
 
     .work-item-container {
-        height: 300px;
+        height: 350px;
         min-width: 340px;
+        transition: 0.3s ease;
     }
-    #work-parallax-text {
-        margin-left: 80px;
+   
+    .work-item-container:hover {
+        transform: translateY(-10px);
     }
 
     .work-stroke-container {
@@ -107,8 +115,7 @@
     }
     .work-stroke {
         width: 60px;
-        border-bottom: 1px solid black;
-        border-right: none;
+        border: none;
     }
 
     /* CONTACT ---------------------------------- */ 

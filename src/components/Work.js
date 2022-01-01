@@ -20,7 +20,7 @@ function Work() {
                       marginTop: 100 * percentage,
                     }}>
                       <p className='work-background-text' id='work-parallax-text'>
-                      Work
+                        Work
                       </p>
                     </div>
                   )}
@@ -29,8 +29,8 @@ function Work() {
                     <p className='work-text'>I build my websites using <span className='bold-span'>React.js</span> and other librairies.</p>
                   </div>
             </Parallax>
-            <WorkList />
           </div>
+            <WorkList />
         </div>
     )
 }

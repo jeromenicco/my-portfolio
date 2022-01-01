@@ -13,26 +13,31 @@ const items = [
       name: 'Portfolio XX',
       image: FT_DESKTOP,
       resume: 'Front-end',
+      url: 'https://florentexier.com/'
     },
     {
       name: 'Mr Antoine',
       image: ANTOINE_DESKTOP,
       resume: 'Design and front-end',
+      url: 'https://monsieurantoine.fr/'
     },
     {
       name: 'Vice FM',
       image: VICE_DESKTOP,
-      resume: 'Conception, design and front-end',
+      resume: 'Work in progress. Conception, design and front-end',
+      url: 'https://distracted-goodall-dec109.netlify.app'
     },
     {
       name: 'AVS',
       image: AVS_DESKTOP,
       resume: 'Design and front-end',
+      url: 'https://gallant-joliot-f2900d.netlify.app'
     },
     {
       name: 'Altimeter',
       image: ALTIMETER_DESKTOP,
       resume: 'Design and front-end',
+      url: 'https://altimeter.fr/'
     },
   ]
 
@@ -44,8 +49,11 @@ function WorkList() {
               return (
                 <>
                   <div className='work-item-container' key={index}>
-                    <img src={item.image} alt={item.name} />
-                    <p>{item.name}</p>
+                    <a href={`${item.url}`} target="_blank">
+                        <img src={item.image} alt={item.name} />
+                    </a>
+                      <p>{item.name}</p>
+                      <p>{item.resume}</p>
                   </div>
                   {
                     index !== items.length -1 && (
