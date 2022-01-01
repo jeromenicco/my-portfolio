@@ -21,12 +21,12 @@ const items = [
       resume: 'Design and front-end',
       url: 'https://monsieurantoine.fr/'
     },
-    {
-      name: 'Vice FM',
-      image: VICE_DESKTOP,
-      resume: 'Work in progress. Conception, design and front-end',
-      url: 'https://distracted-goodall-dec109.netlify.app'
-    },
+    // {
+    //   name: 'Vice FM',
+    //   image: VICE_DESKTOP,
+    //   resume: 'Work in progress. Conception, design and front-end',
+    //   url: 'https://distracted-goodall-dec109.netlify.app'
+    // },
     {
       name: 'AVS',
       image: AVS_DESKTOP,
