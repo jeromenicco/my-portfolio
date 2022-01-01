@@ -52,7 +52,7 @@ function WorkList() {
                     <a href={`${item.url}`} target="_blank">
                         <img src={item.image} alt={item.name} />
                     </a>
-                      <p>{item.name}</p>
+                      <h3>{item.name}</h3>
                       <p>{item.resume}</p>
                   </div>
                   {

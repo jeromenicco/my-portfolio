@@ -27,11 +27,16 @@
 
 .work-item-container p {
     padding-top: 10px;
+    padding-right: 10px;
     padding-left: 10px;
     width: fit-content;
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     border-top: 2px solid lightgrey;
+}
+
+.work-item-container h3{
+    padding-left: 10px;
 }
 
 
