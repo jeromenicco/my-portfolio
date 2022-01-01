@@ -15,6 +15,11 @@ const items = [
       resume: 'Front-end',
     },
     {
+      name: 'Mr Antoine',
+      image: ANTOINE_DESKTOP,
+      resume: 'Design and front-end',
+    },
+    {
       name: 'Vice FM',
       image: VICE_DESKTOP,
       resume: 'Conception, design and front-end',
@@ -22,11 +27,6 @@ const items = [
     {
       name: 'AVS',
       image: AVS_DESKTOP,
-      resume: 'Design and front-end',
-    },
-    {
-      name: 'Mr Antoine',
-      image: ANTOINE_DESKTOP,
       resume: 'Design and front-end',
     },
     {
@@ -47,13 +47,13 @@ function WorkList() {
                     <img src={item.image} alt={item.name} />
                     <p>{item.name}</p>
                   </div>
-                  {/* {
+                  {
                     index !== items.length -1 && (
                       <div className='work-stroke-container'>
                         <div className='work-stroke' />
                       </div>
                     )
-                  } */}
+                  }
                 </>
               )
             })
