@@ -47,13 +47,13 @@ function WorkList() {
                     <img src={item.image} alt={item.name} />
                     <p>{item.name}</p>
                   </div>
-                  {
+                  {/* {
                     index !== items.length -1 && (
                       <div className='work-stroke-container'>
                         <div className='work-stroke' />
                       </div>
                     )
-                  }
+                  } */}
                 </>
               )
             })
