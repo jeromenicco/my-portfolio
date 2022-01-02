@@ -2,7 +2,7 @@ import React from 'react'
 
 import FT_DESKTOP from '../assets/FT_DESKTOP.png'
 import AVS_DESKTOP from '../assets/AVS_DESKTOP.png'
-import VICE_DESKTOP from '../assets/VICE_DESKTOP.png'
+// import VICE_DESKTOP from '../assets/VICE_DESKTOP.png'
 import ANTOINE_DESKTOP from '../assets/antoine-project.png'
 import ALTIMETER_DESKTOP from '../assets/altimeter-project.png'
 
@@ -49,7 +49,7 @@ function WorkList() {
               return (
                 <>
                   <div className='work-item-container' key={index}>
-                    <a href={`${item.url}`} target="_blank">
+                    <a href={`${item.url}`} target="_blank" rel="noreferrer">
                         <img src={item.image} alt={item.name} />
                     </a>
                       <h3>{item.name}</h3>
