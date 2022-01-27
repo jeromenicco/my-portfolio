@@ -32,7 +32,7 @@ function WhatIDo() {
                             <h3 className='ido-title-text'>Front End Developer.</h3>
                             <p className='ido-text'>
                                 Specialized in React.js,<br/>
-                                I like to code things from scratch and bringing ideas to life in the browser.<br/>
+                                I like to code things from scratch and bring ideas to life in the browser.<br/>
                                 I work with JavaScript, CSS 3, React framework and many other librairies.
                             </p>
                         </div>

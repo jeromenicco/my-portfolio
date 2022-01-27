@@ -60,8 +60,7 @@ function About({ Link }) {
             <div className='about-stroke' />
             <div className='about-text-container2'>
               <p className='about-text2'>
-                Passionate and creative,<br />
-                If you have a project in mind it would be a pleasure to collaborate.
+                Passionate and creative, if you have a project in mind it would be a pleasure to collaborate.
               </p>
             </div>
           </div>
