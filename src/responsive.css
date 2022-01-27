@@ -100,7 +100,7 @@
     
 
     .work-item-container {
-        height: 350px;
+        /* height: 350px; */
         min-width: 340px;
         transition: 0.3s ease;
     }
