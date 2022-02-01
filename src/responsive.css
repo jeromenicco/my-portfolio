@@ -90,19 +90,29 @@
     
 
     .worklist-container {
-        margin: 0;
+        margin: auto;
+        margin-top: 20px;
         flex-direction: row;
-        overflow: scroll;
-        padding: 20px 100px;
+        justify-content: space-around;
+        /* overflow: scroll; */
+        /* padding: 20px 100px; */
         /* padding: 20px; */
+        width: 900px;
+        height: 650px;
+        flex-wrap: wrap;
     }
 
     
 
     .work-item-container {
         /* height: 350px; */
-        min-width: 340px;
+        /* min-width: 340px; */
+        width: 400px;
         transition: 0.3s ease;
+    }
+
+    .work-item-container img {
+        max-width: 400px
     }
    
     .work-item-container:hover {
@@ -110,7 +120,7 @@
     }
 
     .work-stroke-container {
-        display: flex;
+        display: none;
         align-items: center;
     }
     .work-stroke {

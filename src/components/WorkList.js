@@ -2,7 +2,7 @@ import React from 'react'
 
 import FT_DESKTOP from '../assets/FT_DESKTOP.png'
 import AVS_DESKTOP from '../assets/AVS_DESKTOP.png'
-// import VICE_DESKTOP from '../assets/VICE_DESKTOP.png'
+import VICE_DESKTOP from '../assets/VICE_DESKTOP.png'
 // import ANTOINE_DESKTOP from '../assets/antoine-project.png'
 import ALTIMETER_DESKTOP from '../assets/altimeter-project.png'
 
@@ -15,12 +15,12 @@ const items = [
       resume: 'Front-end',
       url: 'https://florentexier.com/'
     },
-    // {
-      //   name: 'Vice FM',
-      //   image: VICE_DESKTOP,
-      //   resume: 'Work in progress. Conception, design and front-end',
-      //   url: 'https://distracted-goodall-dec109.netlify.app'
-      // },
+    {
+        name: 'Vice FM',
+        image: VICE_DESKTOP,
+        resume: 'Work in progress. Conception, design and front-end',
+        url: 'https://clever-lumiere-ef0cd2.netlify.app/'
+      },
       {
           name: 'AVS',
           image: AVS_DESKTOP,
