@@ -98,14 +98,14 @@
         /* padding: 20px 100px; */
         /* padding: 20px; */
         width: 900px;
-        height: 650px;
+        height: 800px;
         flex-wrap: wrap;
     }
 
     
 
     .work-item-container {
-        /* height: 350px; */
+        height: 350px;
         /* min-width: 340px; */
         width: 400px;
         transition: 0.3s ease;

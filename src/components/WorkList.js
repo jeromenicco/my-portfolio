@@ -12,25 +12,25 @@ const items = [
     {
       name: 'Portfolio',
       image: FT_DESKTOP,
-      resume: 'Front-end',
+      resume: 'Florent Texier, art director, motion designer and visual artist.',
       url: 'https://florentexier.com/'
     },
     {
         name: 'Vice FM',
         image: VICE_DESKTOP,
-        resume: 'Work in progress. Conception, design and front-end',
+        resume: 'ViceCity radio project.',
         url: 'https://vice-fm.netlify.app/'
       },
       {
           name: 'AVS',
           image: AVS_DESKTOP,
-          resume: 'Design and front-end',
+          resume: 'Food and drinks vending machines loan and services.',
           url: 'https://avs-uk.netlify.app'
         },
         {
           name: 'Altimeter',
           image: ALTIMETER_DESKTOP,
-          resume: 'Design and front-end',
+          resume: 'Consulting and project management in the building industry.',
           url: 'https://altimeter.fr/'
         },
         // {

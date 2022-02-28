@@ -26,18 +26,19 @@
 }
 
 .work-item-container p {
-    display: none;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    /* display: none; */
+    /* padding-top: 10px; */
+    padding-right: 20px;
+    padding-left: 20px;
     width: fit-content;
     font-size: 20px;
+    font-style: italic;
     /* font-weight: bold; */
-    border-top: 2px solid lightgrey;
+    /* border-top: 2px solid lightgrey; */
 }
 
 .work-item-container h3{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 
