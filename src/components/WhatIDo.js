@@ -33,7 +33,7 @@ function WhatIDo() {
                             <p className='ido-text'>
                                 Specialized in React.js,<br/>
                                 I like to code things from scratch and bring ideas to life in the browser.<br/>
-                                I work with JavaScript, CSS 3, React framework and many other librairies.
+                                I work with JavaScript, CSS 3, React and many other librairies.
                             </p>
                         </div>
                         <div className='ido-text-container2'>
